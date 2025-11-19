@@ -175,18 +175,11 @@ This analysis helps understand which manufacturers lead in technology, which seg
 
 📦 EV-Market-Analysis
  ┣ 📜 Electric_Cars.ipynb
+ 
  ┣ 📜 README.md
- ┣ 📜 requirements.txt
- ┣ 📁 data/
- ┃   ┗ 📜 electric_cars.csv
- ┗ 📁 images/
-     ┗ 📜 sample_plot.png
-
-
-📦 EV-Market-Analysis
- ┣ 📜 Electric_Cars.ipynb
- ┣ 📜 README.md
+ 
  ┣ 📜 requirements.txt (optional)
+ 
  ┣ 📁 data/ (optional for CSV exports)
 
  ### 🔗 Repository Link
