@@ -34,19 +34,19 @@ Data was extracted by scraping:
 
 This site provides EV specifications including:
 
-Range
+- Range
 
-Battery capacity
+- Battery capacity
 
-Efficiency
+- Efficiency
 
-Acceleration
+- Acceleration
 
-Fast charging power
+- Fast charging power
 
-Body type
+- Body type
 
-Brand & model
+- Brand & model
 
 The scraped dataset contains 200+ electric vehicles.
 
@@ -59,49 +59,49 @@ Notebook:	Jupyter Notebook
 
 ### 📥 Data Collection (Web Scraping)
 
-Used requests to fetch the webpage HTML
+- Used requests to fetch the webpage HTML
 
-Parsed using BeautifulSoup
+- Parsed using BeautifulSoup
 
-Extracted EV details using tag-based search & regex
+- Extracted EV details using tag-based search & regex
 
-Stored data in lists → constructed into a pandas DataFrame
+- Stored data in lists → constructed into a pandas DataFrame
 
 Scraped fields:
 
-Brand
+- Brand
 
-Model
+- Model
 
-Range (km)
+- Range (km)
 
-Battery capacity (kWh)
+- Battery capacity (kWh)
 
-Efficiency (Wh/km)
+- Efficiency (Wh/km)
 
-Fast charging speed
+- Fast charging speed
 
-Acceleration (0–100 km/h)
+- Acceleration (0–100 km/h)
 
-Body type
+- Body type
 
-Top speed
+- Top speed
 
-Price (if available)
+- Price (if available)
 
 ### 🧹 Data Cleaning
 
 Tasks performed:
 
-Converted textual data (e.g., “Battery 60 kWh”) into numeric values
+- Converted textual data (e.g., “Battery 60 kWh”) into numeric values
 
-Removed extra characters (km, kWh, km/h)
+- Removed extra characters (km, kWh, km/h)
 
-Handled missing or inconsistent entries
+- Handled missing or inconsistent entries
 
-Created segments for range analysis
+- Created segments for range analysis
 
-Standardized column names
+- Standardized column names
 
 Result:
 A clean, analysis-ready dataset.
@@ -110,17 +110,17 @@ A clean, analysis-ready dataset.
 
 Visualizations include:
 
-Distribution of battery capacity
+- Distribution of battery capacity
 
-Distribution of range
+- Distribution of range
 
-Charging power distribution
+- Charging power distribution
 
-Efficiency distribution
+- Efficiency distribution
 
-Body type countplot
+- Body type countplot
 
-Top brands by number of EVs
+- Top brands by number of EVs
 
 Purpose:
 To understand the spread and frequency of individual attributes.
@@ -129,15 +129,15 @@ To understand the spread and frequency of individual attributes.
 
 Analyzed relationships between two variables using:
 
-Battery vs Range (scatter plot)
+- Battery vs Range (scatter plot)
 
-Efficiency vs Range
+- Efficiency vs Range
 
-Price vs Range (if available)
+- Price vs Range (if available)
 
-Average Range by Brand (bar chart)
+- Average Range by Brand (bar chart)
 
-Average Battery by Brand
+- Average Battery by Brand
 
 Purpose:
 To identify trends like how battery size affects driving range.
@@ -146,11 +146,11 @@ To identify trends like how battery size affects driving range.
 
 Includes:
 
-Correlation heatmap of all numeric features
+- Correlation heatmap of all numeric features
 
-Boxplots comparing performance between brands
+- Boxplots comparing performance between brands
 
-Multi-feature comparisons (e.g., charging + battery + range)
+- Multi-feature comparisons (e.g., charging + battery + range)
 
 Purpose:
 To understand deeper interconnections between variables.
@@ -182,4 +182,4 @@ This analysis helps understand which manufacturers lead in technology, which seg
  ### 🔗 Repository Link
 
 (Replace with your actual GitHub link)
-👉 https://github.com/yourusername/ev-market-analysis
+👉 [https://github.com/yourusername/ev-market-analysis](https://github.com/AiluriAmardeepReddy/Electric-Vehicle-Market-Analysis-Web-Scraping-EDA-)
