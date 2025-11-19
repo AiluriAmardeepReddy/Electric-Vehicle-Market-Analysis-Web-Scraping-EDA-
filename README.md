@@ -171,17 +171,6 @@ To understand deeper interconnections between variables.
 The EV market shows strong differentiation between brands in terms of range, battery, and charging speed.
 This analysis helps understand which manufacturers lead in technology, which segments dominate the market, and what factors influence EV performance.
 
-### 📁 Project Structure
-
-📦 EV-Market-Analysis
- ┣ 📜 Electric_Cars.ipynb
- 
- ┣ 📜 README.md
- 
- ┣ 📜 requirements.txt (optional)
- 
- ┣ 📁 data/ (optional for CSV exports)
-
  ### 🔗 Repository Link
 
 (Replace with your actual GitHub link)
