@@ -1,4 +1,4 @@
-🚗 Electric Vehicle Market Analysis (Web Scraping + Data Analytics Project)
+### 🚗 Electric Vehicle Market Analysis (Web Scraping + Data Analytics Project)
 
 A complete end-to-end data analysis project involving web scraping, data cleaning, EDA (Univariate, Bivariate, Multivariate), market segmentation, and business insights using real-world electric vehicle (EV) data.
 📘 Project Overview
@@ -19,14 +19,14 @@ and overall brand competitiveness.
 
 The project demonstrates skills in scraping, cleaning, visualizing, analyzing, and deriving insights from real-world data.
 
-🎯 Problem Statement
+### 🎯 Problem Statement
 
 The electric vehicle market is rapidly expanding, with numerous brands offering different battery sizes, ranges, charging speeds, and performance characteristics. However, there is no single dataset that consolidates all these details.
 
-Objective:
+#### Objective:
 To collect EV data from the web, clean it, analyze it, and extract meaningful insights that help understand market trends and brand performance.
 
-📂 Dataset Source
+### 📂 Dataset Source
 
 Data was extracted by scraping:
 
@@ -50,14 +50,14 @@ Brand & model
 
 The scraped dataset contains 200+ electric vehicles.
 
-⚙️ Tech Stack
-Category	Tools
-Languages	Python
-Scraping	Requests, BeautifulSoup, Regex
-Data Processing	Pandas, NumPy
-Visualization	Matplotlib, Seaborn
-Notebook	Jupyter Notebook
-📥 Data Collection (Web Scraping)
+### ⚙️ Tech Stack
+Languages:	Python
+Scraping:	Requests, BeautifulSoup, Regex
+Data Processing:	Pandas, NumPy
+Visualization:	Matplotlib, Seaborn
+Notebook:	Jupyter Notebook
+
+### 📥 Data Collection (Web Scraping)
 
 Used requests to fetch the webpage HTML
 
@@ -89,7 +89,7 @@ Top speed
 
 Price (if available)
 
-🧹 Data Cleaning
+### 🧹 Data Cleaning
 
 Tasks performed:
 
@@ -106,7 +106,7 @@ Standardized column names
 Result:
 A clean, analysis-ready dataset.
 
-📊 Univariate Analysis
+### 📊 Univariate Analysis
 
 Visualizations include:
 
@@ -125,7 +125,7 @@ Top brands by number of EVs
 Purpose:
 To understand the spread and frequency of individual attributes.
 
-🔗 Bivariate Analysis
+### 🔗 Bivariate Analysis
 
 Analyzed relationships between two variables using:
 
@@ -142,7 +142,7 @@ Average Battery by Brand
 Purpose:
 To identify trends like how battery size affects driving range.
 
-📈 Multivariate Analysis
+### 📈 Multivariate Analysis
 
 Includes:
 
@@ -155,7 +155,7 @@ Multi-feature comparisons (e.g., charging + battery + range)
 Purpose:
 To understand deeper interconnections between variables.
 
-💡 Key Insights
+### 💡 Key Insights
 
 ✔ Tesla, BMW, and Mercedes produce the highest-range EVs
 ✔ MG and BYD offer strong value-for-money electric cars
@@ -166,12 +166,12 @@ To understand deeper interconnections between variables.
 ✔ Efficiency does not always correlate directly with price
 ✔ High-performance cars generally have better acceleration but lower efficiency
 
-📌 Conclusion
+### 📌 Conclusion
 
 The EV market shows strong differentiation between brands in terms of range, battery, and charging speed.
 This analysis helps understand which manufacturers lead in technology, which segments dominate the market, and what factors influence EV performance.
 
-📁 Project Structure
+### 📁 Project Structure
 
 📦 EV-Market-Analysis
  ┣ 📜 Electric_Cars.ipynb
@@ -179,7 +179,7 @@ This analysis helps understand which manufacturers lead in technology, which seg
  ┣ 📜 requirements.txt (optional)
  ┣ 📁 data/ (optional for CSV exports)
 
- 🔗 Repository Link
+ ### 🔗 Repository Link
 
 (Replace with your actual GitHub link)
 👉 https://github.com/yourusername/ev-market-analysis
