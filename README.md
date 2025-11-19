@@ -5,17 +5,17 @@ A complete end-to-end data analysis project involving web scraping, data cleanin
 
 This project analyzes the electric vehicle (EV) market by collecting real-time specifications from an online EV database. The goal is to understand trends in:
 
-battery capacity,
+- battery capacity,
 
-driving range,
+- driving range,
 
-charging performance,
+- charging performance,
 
-efficiency,
+- efficiency,
 
-acceleration,
+- acceleration,
 
-and overall brand competitiveness.
+- and overall brand competitiveness.
 
 The project demonstrates skills in scraping, cleaning, visualizing, analyzing, and deriving insights from real-world data.
 
